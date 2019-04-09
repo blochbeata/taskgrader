@@ -1,1 +1,1 @@
-web: gunicorn task_grader.wsgi
+web: gunicorn task.wsgi --log-file -
